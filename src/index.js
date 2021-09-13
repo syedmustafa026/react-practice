@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Apps from './App.js';
 import reportWebVitals from './reportWebVitals';
+import Question from './components'
+import Cards from './components';
+import Post from './components'
+
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <>
+      <Apps />
+      <Question />
+    </>
   </React.StrictMode>,
   document.getElementById('root')
 );
