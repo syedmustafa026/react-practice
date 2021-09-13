@@ -37,7 +37,9 @@ function Apps() {
         <h2 className="heading">Q2:</h2>
         <h5>Q:Briefly explain with an example what's the difference between
           import Something from 'package' VS import Something from 'package"</h5>
-
+          <p>Ans: Export default is used to export a single class, function or primitive from a script file. The export can also be written as export default function
+  while the other {"Default"}used shen we would have to export many functions.
+         </p>
 
 
       </header>
