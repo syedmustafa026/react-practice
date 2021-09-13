@@ -7,20 +7,20 @@ import './App.css';
 
 
 
-function PostBtn(){
-    return(
-        <a href="#allcards"><button  type=" button" className=" heading butn">Posts</button></a>
+function PostBtn() {
+    return (
+        <a href="#allcards"><button type=" button" className=" heading butn">Posts</button></a>
     )
 }
-function UserBtn(){
-    return(
-        <a href="#allusers"><button  type=" button" className=" heading butn">Users</button></a>
+function UserBtn() {
+    return (
+        <a href="#allusers"><button type=" button" className=" heading butn">Users</button></a>
     )
 }
 function Cards() {
     return (
-        <div>   
-        
+        <div>
+
             <h3 className="heading">Users List</h3>
             <div className="allcards" id="allusers">
                 {
@@ -69,18 +69,18 @@ function Post() {
 }
 
 
-function Question(){
-   return(
-    <div className="q3">
-    <h2 className="heading">Q3:</h2>
+function Question() {
+    return (
+        <div className="q3">
+            <h2 className="heading">Q3:</h2>
             <div className="allbtns">
-            <PostBtn></PostBtn>
-            <UserBtn></UserBtn> 
+                <PostBtn></PostBtn>
+                <UserBtn></UserBtn>
             </div>
-            <Post/>
-            <Cards/> 
+            <Post />
+            <Cards />
 
-    </div>
-   ) 
+        </div>
+    )
 }
 export default Question;
