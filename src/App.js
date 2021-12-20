@@ -7,8 +7,6 @@ const data = ['We', 'are', 'United']
 const list = [{ name: "Hello World 1" }, { name: "Hello World 2" }, { name: "Hello World 3" }]
 const complex = [{ company: 'XYZ', jobs: ['Javascript', 'React'] }, { company: 'ABC', jobs: ['AngularJs', 'Ionic'] }]
 
-
-
 function Apps() {
 
   return (
